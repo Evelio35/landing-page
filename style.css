@@ -1,0 +1,38 @@
+.head{
+     background: #1F2937;
+}
+.header{
+    display: flex;
+   
+    justify-content: space-around;
+}
+.logo{
+    font-size: small;
+    color: #F9FAF8;
+    /* margin-right: auto; */
+}
+
+.links{
+    align-self: center;
+}
+
+.heroheader{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heroheader .main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.heroheader .subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heroheader .button{
+    color: #3882f6;
+}
+
+
