@@ -1,25 +1,59 @@
+p{
+    margin: 0px;
+}
+
+img{
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 5px 25px;
+    color: #F9FAF8;
+}
+
 .head{
      background: #1F2937;
 }
+
 .header{
     display: flex;
-   
     justify-content: space-around;
 }
+
 .logo{
     font-size: small;
     color: #F9FAF8;
-    /* margin-right: auto; */
 }
 
 .links{
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb;
+    text-decoration: none;
     align-self: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: center;
+
 }
 
 .heroheader{
     display: flex;
-    flex-wrap: wrap;
+    padding: 75px 0px;
+    justify-content: center;
+    gap: 20px;
 }
+
 .heroheader .main{
     font-size: 48px;
     font-weight: bolder;
@@ -27,12 +61,85 @@
 }
 
 .heroheader .subtext{
+    text-align: left;
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.heroheader .button{
-    color: #3882f6;
+.center .header{
+    padding: 45px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.images .image-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.images .image-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.images .image-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.images .image-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.images p{
+    color: lightslategray;
+}
+
+.images .image-1 img{
+   width: 200px;
+   height: auto;
+   padding: 20px 0px;
+   border: 5px  solid  #3882f6;
+}
+
+.images .image-2 img{
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882f6;
+}
+
+.images .image-3 img{
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882f6;
+}
+
+.images .image-4 img{
+    width: 200px;
+    height: auto;
+    padding: 20px 0px;
+    border: 5px solid #3882f6;
 }
 
 
