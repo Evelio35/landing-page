@@ -67,7 +67,7 @@ button{
 }
 
 .center .header{
-    padding: 45px;
+    padding: 50px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -78,6 +78,7 @@ button{
     justify-content: center;
     gap: 50px;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .images .image-1{
@@ -142,4 +143,27 @@ button{
     border: 5px solid #3882f6;
 }
 
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 10px;
+    height: 400px;
+    background: #E5E7EB;
+}
+
+.quote .words{
+    font-size: 36px;
+    font-style: italic;
+    width: 900px;
+}
+
+.quote .author{
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    width: 750px;
+}
 
